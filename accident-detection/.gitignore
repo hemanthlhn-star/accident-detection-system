@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model weights (too large for GitHub)
+model/weights/*.pt
+model/weights/*.onnx
+
+# Database (user-specific data)
+backend/accidents.db
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
